@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    font-family:'Inter';
+}
+#menusuperior{
+    background-color: #303030;
+    color: #FFFFFF;
+    height: 300px;
+}
+.titulo-menusuperior {
+    font-size: 300%;
+    padding-top: 110px;
+    margin-left: 35px;
+}
+.texto-menusuperior {
+    margin-left: 35px;
+
+}
+.column{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 60px;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+.item{
+    margin-left: 80px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-daempresa{
+    font-size: 3vh;
+}
+#titulo-informacao{
+    font-size: 38px;
+    margin-left: 30px;
+    padding: 25px;
+}
+
+#texto-informacao{
+    font-size: 23px;
+    margin-left: 30px;
+    padding: 21px;
+}
+#imagem{
+    padding: 50px 20px;
+}
+
+.seta:hover{
+    transform:translateY(-7px) ;
+    transition-duration: 0.5s; 
+}
+
+#formulario{
+    background-color: #303030;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#titulo-doformulario{
+    text-align: center;
+    padding-top: 50px;
+}
+input{
+    
+    width: 390px;
+    height: 45px;
+    background-color: #EAECE5;
+    margin: 50px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+    display: grid;
+    grid-auto-flow: column;
+    font-size: large;
+}
+
+button{
+    background-color: #C07212;
+    color:#FFFFFF;
+    font-size: large;
+    width: 170px;
+    height: 46px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 7px;
+    margin-bottom: 50px;
+    margin-left: 169px;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: hsl(32, 81%, 43%);
+    color: white;
+    transform: translateY(-7px) ;
+    box-shadow: 0px 15px 20px #FFFFFF;
+    transition-duration: 0.5s;
+}
